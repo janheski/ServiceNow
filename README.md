@@ -1,2 +1,2 @@
 # ServiceNow
-ServiceNow CMDB Scripts!
+ServiceNow scripts and demo documents
