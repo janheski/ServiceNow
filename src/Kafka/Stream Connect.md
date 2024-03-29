@@ -72,13 +72,13 @@ References:
         ssl.keystore.type=PKCS12
         ssl.key.password=<keystore password>
         ```
-
-3. In the instance, **sys_kafka_topic.list** add a topic. For example: demo-topic
-4. Navigate to the Hermes Diagnostic page and copy the producer and consumer bootstrap
+3. Navigate to the Hermes Diagnostic page and copy the producer and consumer bootstrap
     ![Bootsrap](images/bootstrap.png)
+4. In the instance, **sys_kafka_topic.list** add a topic. For example: demo-topic. 
+    - Note: We could create the topic from the command line, but it is easier to create it from the UI, and get the topic prefix correctly when listing it in the next step.
 5. <u>**List topics**</u>: In Kafka Linux issue the following command from the same location as the producer.properties (demo directory):
     ```
-    /usr/local/kafka/bin/kafka-topics.sh --command-config producer.properties --bootstrap-server <InstanceName>.service-now.com:4000,<InstanceName>.service-now.com:4001,<InstanceName>.service-now.com:4002,<InstanceName>.service-now.com:4003 --list
+    /usr/local/kafka/bin/kafka-topics.sh --command-config properties.cfg --bootstrap-server <InstanceName>.service-now.com:4000,<InstanceName>.service-now.com:4001,<InstanceName>.service-now.com:4002,<InstanceName>.service-now.com:4003 --list
     ```
     - Note the full path to kafka-topics.sh script and the producer bootstrap from step 3
     - Note that the demo-topic that was created in step 1 has a prefix on snc.<InstanceName>, which is the default namespace
