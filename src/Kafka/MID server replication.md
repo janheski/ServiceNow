@@ -1,6 +1,6 @@
 ## Stream Connect With MID server Message Replication
 ### Securing the Kafka Server with SSL
-1. Make a diretory to which we will create a self-signed CA, keystore, and truststore
+1. Make a directory to which we will create a self-signed CA, keystore, and truststore
     ```
     mkdir ~/demo
     cd ~/demo
@@ -10,7 +10,7 @@
     openssl req -new -x509 -keyout ca-key -out ca-cert -days 3650
     ```
 3. Get the private IP of the Kafka Linux server and the server name
-4. Create the keystore
+4. Create the keystore (You will need to modify this command with your server name and private IP Address)
     ```
     keytool -keystore kafka.server-r.keystore.jks -alias server-r -validity 3650 -genkey -keyalg RSA -ext SAN=dns:kafka,IP:10.0.0.7
     ```
