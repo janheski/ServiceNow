@@ -85,7 +85,6 @@
     ```
     cat kafka.server-r.keystore.jks |base64 -w 0
     cat kafka.server-r.truststore.jks |base64 -w 0
-
     ```
 6. Copy the encoded text into the corresponding credential record fields, with the correct passwords.
 7. Once the credential was saved on the connection record, enter the Kafka server's SSL bootsrap connection ```kafka:9093```
@@ -102,7 +101,7 @@
     cd ~/ssl/demo
     /usr/local/kafka/bin/kafka-console-producer.sh --broker-list kafka:9093 --topic KafkaServerSource --producer.config client-ssl.properties
     ```
-14. Observe that the message were replicated by the MID server by inspecting the ```Hermes Destination``` topic
+14. Observe that the messages were replicated by the MID server by inspecting the ```Hermes Destination``` topic
 15. Open the Kafka server connection (Kafka connection record that was created in Step 3), Observe the Consumer group id field
 16. On the Kafka server, the following command can be used to list the consumer group IDs
     ```
