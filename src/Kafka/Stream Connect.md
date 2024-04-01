@@ -1,7 +1,9 @@
 # Stream Connect
 ### Install Kafka on a Linux-based VM
 * Follow https://www.linuxtechi.com/how-to-install-apache-kafka-on-ubuntu/
+* My YouTube Video [01 ServiceNow Kafka Integration: Installing Kafka on a VM](https://youtu.be/1Zp1GigqH9w?list=PL5DgOfLBA3Rbllyw8mfqba52m3k_U4EnX)
 ### Setup for direct instance connection through Hermes
+* Please follow along my YouTube Video [02 ServiceNow Kafka Integration: StreamConnect Produce and Consume](https://youtu.be/TDtJB00XwW8?list=PL5DgOfLBA3Rbllyw8mfqba52m3k_U4EnX)
 * Pre-requisites
     - Make sure that your instance can be accessed via the adcv2 load balancer. If it is not, you will need to create a case to migrate your instance from F5 to ADCV2. Check using the following URL: **https://\<InstanceName>.service-now.com/adcv2/server**
     - **com.glide.kmf.global** plugin must be installed
