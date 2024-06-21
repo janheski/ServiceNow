@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-06-20 18:38:39">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>InSN is a no-code custom application designed to intuitively visualize and simplify intricate workflows, business processes, and complex models.</description>
+<inserted/>
+<name>InSN</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date>2024-06-21 18:04:31</release_date>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>85c2b6c753ba0a105df75ab0a0490ed2</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-20 18:38:39</sys_created_on>
+<sys_id>6a7408a753be8a105df75ab0a0490eea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-20 18:38:39</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_bc18bd7ec3ba465091b0d73c050131f8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;true&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;link href="https://cdn.jsdelivr.net/gh/oasif/insn-pub@master/v02/insn.css" rel="stylesheet" /&gt;
+&lt;style&gt;body{margin:0}&lt;/style&gt;
+&lt;div id="rootinsn"&gt;&lt;/div&gt;
+&lt;script src="https://cdn.ckeditor.com/ckeditor5/41.4.2/super-build/ckeditor.js" /&gt;
+&lt;script src="https://cdn.jsdelivr.net/gh/oasif/insn-pub@master/v02/insn.js" /&gt;]]&gt;&lt;/html&gt;&lt;name&gt;insn1&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-18 19:08:15&lt;/sys_created_on&gt;&lt;sys_id&gt;bc18bd7ec3ba465091b0d73c050131f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;insn1&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_bc18bd7ec3ba465091b0d73c050131f8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-19 18:08:00&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1033345516</payload_hash>
+<remote_update_set display_value="InSN">6a7408a753be8a105df75ab0a0490eea</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-20 18:38:39</sys_created_on>
+<sys_id>2a7408a753be8a105df75ab0a0490eeb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19031af26f30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-20 18:38:39</sys_updated_on>
+<table/>
+<target_name>insn1</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>73d3b64b3cba0a10ce13116a21c86952</update_guid>
+<update_guid_history>73d3b64b3cba0a10ce13116a21c86952:1033345516,26430afea47a861047987c197ff51909:-1714530270,932382fe767a86102d78eaeebb27567e:1069607086,8b2382fefa7a861090a0afaef232f97b:197371362</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_fb3b3536c3fa465091b0d73c0501316b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="InSN v1">992efdbac3fa465091b0d73c050131c8</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>InSN 2</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order/><override_menu_roles>false</override_menu_roles><query>now/nav/ui/classic/params/target/insn1.do?sys_id=bc18bd7ec3ba465091b0d73c050131f8&amp;v=CSDM4</query><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-18 19:24:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fb3b3536c3fa465091b0d73c0501316b</sys_id><sys_mod_count>13</sys_mod_count><sys_name>CSDM 4.0</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_fb3b3536c3fa465091b0d73c0501316b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-20 11:56:06</sys_updated_on><timeline_page/><title>CSDM 4.0</title><uncancelable>false</uncancelable><view_name/><window_name>InSN</window_name></sys_app_module></record_update>]]></payload>
+<payload_hash>-1373137762</payload_hash>
+<remote_update_set display_value="InSN">6a7408a753be8a105df75ab0a0490eea</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-20 18:38:39</sys_created_on>
+<sys_id>667408a753be8a105df75ab0a0490eeb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>190358105870000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-20 18:38:39</sys_updated_on>
+<table/>
+<target_name>CSDM 4.0</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>b958a69b2e368a10f964264dd3851982</update_guid>
+<update_guid_history>b958a69b2e368a10f964264dd3851982:-1373137762,c9472e1bf4368a10e63f30b4cb531181:1134527956,5807eed73b368a10d5c70a37a7d375f1:992427316,2e54728b51ba0a10a3c0a9e07b1d54a7:-59277990,3ca3f60bc0ba0a10894006551db54cff:1579072307,5615ceb2c0ba8610b96dcdc94dfc23fe:865016819,ec054ab24fba8610285a8dada2bbb9d3:499913499,83a442b2d9ba861096f3f473652ee8be:763433201,dfc3c232baba8610249ad4641e13f1a3:1271343033,c98e7dfa3bfa4650c91799db4b88788f:1259063834,cecdf17ab2fa46505ff483e52261de47:834080403,1aac35f601fa4650cbdee656d38d9984:369091144,b45cfdb6e0fa465023b6f91b26ae8ad6:527042886,17bb7d7676fa4650db7a8c465f53724f:1901746024</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_992efdbac3fa465091b0d73c050131c8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description>InSN is a no-code custom application designed to intuitively visualize and simplify intricate workflows, business processes, and complex models.</description><device_type>browser</device_type><hint/><name/><order/><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-18 19:35:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>992efdbac3fa465091b0d73c050131c8</sys_id><sys_mod_count>7</sys_mod_count><sys_name>InSN v1</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_992efdbac3fa465091b0d73c050131c8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-19 18:05:37</sys_updated_on><title>InSN v1</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-1881884684</payload_hash>
+<remote_update_set display_value="InSN">6a7408a753be8a105df75ab0a0490eea</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-06-20 18:38:39</sys_created_on>
+<sys_id>6e7408a753be8a105df75ab0a0490eea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19031acf7f80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-06-20 18:38:39</sys_updated_on>
+<table/>
+<target_name>InSN v1</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>c553720b92ba0a103a8bc965f2b5faf1</update_guid>
+<update_guid_history>c553720b92ba0a103a8bc965f2b5faf1:-1881884684,6ba27247d6ba0a106f076227beae270f:1508526078,6f6272c35aba0a1052c10b383628c7e8:-447298598,5bc4c6b28cba86102da560f6212bde88:-1315787120,46c446b2b2ba86102b4829b23cd59f86:524119215,98204e7a427a8610bcb703f4bb09bb32:-1315787120,bc9f793adf7a8610ae29b30df0d98f01:-87371337,4f4e35fac8fa4650ce3932cf9d9469df:981805441</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
