@@ -11,6 +11,10 @@
     ```
     openssl req -new -x509 -keyout ca-key -out ca-cert -days 3650
     ```
+2a. Create truststore
+    ```
+    keytool -keystore kafka.server-r.truststore.jks -alias ca-cert -import -file ca-cert
+    ```
 3. Get the private IP of the Kafka Linux server and the server name
 4. Create the keystore (You will need to modify this command with your server name and private IP Address)
     ```
